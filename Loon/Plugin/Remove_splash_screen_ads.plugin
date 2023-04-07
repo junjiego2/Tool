@@ -1,6 +1,6 @@
 #!name = 开屏广告过滤器
-#!desc = 过滤部分主流应用的开屏广告[2022/12/31]
-#!openUrl = 
+#!desc = 过滤部分主流应用的开屏广告[2023/04/07]
+#!openUrl = https://raw.githubusercontent.com/junjiego2/Tool/main/Loon/Plugin/Remove_splash_screen_ads.plugin
 #!author = ddgksf2013 junjiego2
 #!homepage = https://github.com/junjiego2/Tool/edit/main/Loon/Plugin/Remove_splash_screen_ads.plugin
 #!icon = https://gitlab.com/lodepuly/iconlibrary/-/raw/master/Other_icon/80px/Ads.png
