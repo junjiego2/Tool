@@ -19,7 +19,6 @@ http-response ^https?:\/\/api.coolapk.com\/v6\/main\/indexV8 script-path = https
 http-response ^https?:\/\/api.coolapk.com\/v6\/feed\/replyList script-path = https://raw.githubusercontent.com/junjiego2/Tool/main/Loon/Scripts/coolapk.js
 # > 酷安_商品推广@ddgksf2013
 http-response ^https?:\/\/api.coolapk.com\/v6\/feed\/detail script-path = https://raw.githubusercontent.com/junjiego2/Tool/main/Loon/Scripts/coolapk.js
-http-response ^https?:\/\/api\.coolapk\.com\/v6\/(feed\/(replyList|detail)|main\/indexV8|dataList) script-path = https://raw.githubusercontent.com/junjiego2/Tool/main/Loon/Scripts/coolapk.js
 
 [MITM] 
 hostname=api.coolapk.com
