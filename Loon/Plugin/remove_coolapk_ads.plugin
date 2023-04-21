@@ -1,0 +1,16 @@
+#!name = 酷安去广告
+#!desc = 过滤coolapk广告，精简多余功能。
+#!openUrl = 
+#!author = ddgksf2013
+#!homepage = https://github.com/junjiego2/Tool/tree/main/Loon/Plugin
+#!icon = 
+
+[Rewrite]
+# > 酷安_屏蔽热词@ddgksf2013
+^https?:\/\/api\.coolapk\.com\/v6\/search\?.*type=hotSearch reject-dict
+
+[Script]
+http-response ^https?:\/\/api\.coolapk\.com\/v6\/(feed\/(replyList|detail)|main\/indexV8|dataList) script-path = https://raw.githubusercontent.com/junjiego2/Tool/main/Loon/Scripts/coolapk.js
+
+[MITM] 
+hostname=api.coolapk.com
