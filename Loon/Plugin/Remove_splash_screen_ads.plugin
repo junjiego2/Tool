@@ -595,7 +595,7 @@ http-request ^https?:\/\/open-cms-api\.uc\.cn\/open-cms http-request  https://ra
 # > ShunFeng
 http-request https://ccsp-egmas.sf-express.com/cx-app-base/base/app/ad/queryInfoFlow script-path = https://github.com/ddgksf2013/Scripts/raw/master/shunfeng_json.js, requires-body=true, tag=顺丰广告
 # > Zhihu
-#http-request ^https?:\/\/api\.zhihu\.com\/commercial_api.*launch_v2 script-path = #https://github.com/ddgksf2013/Scripts/raw/master/zhihu_openads.js, requires-body=true, tag=知乎广告
+http-request ^https?:\/\/api\.zhihu\.com\/commercial_api.*launch_v2 script-path = https://github.com/ddgksf2013/Scripts/raw/master/zhihu_openads.js, requires-body=true, tag=知乎广告
 
 
 
