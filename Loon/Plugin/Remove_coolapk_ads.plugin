@@ -10,7 +10,13 @@
 ^https?:\/\/api\.coolapk\.com\/v6\/search\?.*type=hotSearch reject-dict
 
 [Script]
-http-response ^https?:\/\/api\.coolapk\.com\/v6\/(feed\/(replyList|detail)|main\/indexV8|dataList) script-path = https://raw.githubusercontent.com/junjiego2/Tool/main/Loon/Scripts/coolapk.js
-
+# > 酷安_推广广告@ddgksf2013
+http-response ^https?:\/\/api.coolapk.com\/v6\/dataList script-path = https://raw.githubusercontent.com/junjiego2/Tool/main/Loon/Scripts/coolapk.js, requires-body = true, tag =推广广告
+# > 酷安_首页广告@ddgksf2013
+http-response ^https?:\/\/api.coolapk.com\/v6\/main\/indexV8 script-path = https://raw.githubusercontent.com/junjiego2/Tool/main/Loon/Scripts/coolapk.js, requires-body = true, tag =首页广告
+# > 酷安_评论广告@ddgksf2013
+http-response ^https?:\/\/api.coolapk.com\/v6\/feed\/replyList script-path = https://raw.githubusercontent.com/junjiego2/Tool/main/Loon/Scripts/coolapk.js, requires-body = true, tag =评论广告
+# > 酷安_商品推广@ddgksf2013
+http-response ^https?:\/\/api.coolapk.com\/v6\/feed\/detail script-path = https://raw.githubusercontent.com/junjiego2/Tool/main/Loon/Scripts/coolapk.js, requires-body = true, tag =商品推广
 [MITM] 
 hostname=api.coolapk.com
