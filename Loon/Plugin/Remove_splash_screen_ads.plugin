@@ -93,9 +93,13 @@
 ^https?:\/\/api\.dangdang\.com\/mapi\d\/mobile\/init reject
 # > dashixiong
 ^https?:\/\/sdk\.alibaba\.com\.ailbaba\.me\/.*?\/v\d\/(version|top_notice\?|advert\?position=[^2]+) reject
-# > douban
-^https?:\/\/api\.douban\.com\/v2\/app_ads\/splash reject
-^https?:\/\/api\.douban\.com\/b.*\/common_ads\?.* reject
+# > 豆瓣
+^https?:\/\/api\.douban\.com\/v2\/app_ads\/splash reject-dict
+^https?:\/\/api\.douban\.com\/b.*\/common_ads\?.* reject-dict
+^https?:\/\/img\d\.doubanio\.com\/view\/dale-online\/dale_ad\/ reject
+^https?:\/\/frodo\.douban\.com\/api\/v2\/movie\/banner reject
+^https?:\/\/erebor\.douban\.com\/count\/\?ad= reject
+^https?:\/\/api\.douban\.com\/v\d\/app_ads\/ reject-200
 # > dingdongmaicai
 ^https?:\/\/maicai\.api\.ddxq\.mobi\/advert\/ reject
 # > didichuxing
