@@ -253,7 +253,7 @@ https://fbchina.flipchina.cn/v2/ad/query/* reject
 # > kuaikan
 ^https?:\/\/api.kkmh.com\/v\d\/(ad|advertisement)\/ reject
 # > ku'an
-^https?:\/\/api\.coolapk\.com\/v6\/search\?.*type=hotSearch reject-dict
+#^https?:\/\/api\.coolapk\.com\/v6\/search\?.*type=hotSearch reject-dict
 # > kanlixiang
 ^https?:\/\/api\.vistopia\.com\.cn\/api\/v\d\/home\/advertisement reject
 # > kantianxia
