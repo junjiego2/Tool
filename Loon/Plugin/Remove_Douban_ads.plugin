@@ -1,0 +1,14 @@
+#!name = 豆瓣去广告
+#!desc = 过滤豆瓣广告
+#!openUrl = 
+#!author = ddgksf2013
+#!homepage = https://github.com/junjiego2/Tool/tree/main/Loon/Plugin
+#!icon = 
+
+[Rewrite]
+# > douban
+^https?:\/\/api\.douban\.com\/v2\/app_ads\/splash url reject-200
+^https?:\/\/api\.douban\.com\/b.*\/common_ads\?.* url reject-200
+
+[MITM]
+hostname=api.douban.com
