@@ -1,0 +1,12 @@
+#!name = 腾讯动漫去广告
+#!desc = 过滤腾讯动漫开屏广告。
+#!openUrl = 
+#!author = RuCu6 app2smile kokoryh ddgksf2013
+#!homepage = https://gitlab.com/lodepuly/vpn_tool/-/tree/main/Tool/Loon/Plugin
+#!icon =
+
+[Rewrite]
+^https?:\/\/iphone\.ac\.qq\.com\/.*\/Support\/(getSystemConf|bootScreen) url reject
+
+[MITM]
+hostname=iphone.ac.qq.com
