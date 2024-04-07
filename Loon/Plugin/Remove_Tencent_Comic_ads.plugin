@@ -3,7 +3,7 @@
 #!openUrl = 
 #!author = RuCu6 app2smile kokoryh ddgksf2013
 #!homepage = https://gitlab.com/lodepuly/vpn_tool/-/tree/main/Tool/Loon/Plugin
-#!icon =
+#!icon = https://github.com/junjiego2/Tool/blob/main/res/tencentComic.jpg?raw=true
 
 [Rewrite]
 ^https?:\/\/iphone\.ac\.qq\.com\/.*\/Support\/(getSystemConf|bootScreen) url reject
