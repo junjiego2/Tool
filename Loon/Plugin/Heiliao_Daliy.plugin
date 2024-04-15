@@ -1,0 +1,9 @@
+#!name= 黑料不打烊
+#!desc= 黑料不打烊
+#!openUrl=https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/javday.js
+#!author= yqc_777
+#!homepage= https://github.com/Yuheng0101/X
+#!icon= https://raw.githubusercontent.com/Toperlock/Quantumult/main/icon/heiliao.png
+
+[Script]
+cron "9,15 * * *" script-path=https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/hlbdy.js, timeout=10, tag=黑料不打烊, img-url=https://raw.githubusercontent.com/Toperlock/Quantumult/main/icon/heiliao.png
