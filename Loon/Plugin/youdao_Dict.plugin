@@ -1,0 +1,11 @@
+#!name=有道词典会员
+#!desc=有道词典会员
+#!icon=https://github.com/junjiego2/Tool/blob/main/res/youdaoDict.png?raw=true
+#!openUrl=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/wyydcd.js
+#!author=彭于晏
+#!homepage=https://github.com/Moli-X/Resources
+[Script]
+http-response ^https:\/\/dict\.youdao\.com\/vip\/user\/status script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/wyydcd.js, requires-body=true, timeout=60, tag=wyydcd
+
+[MITM]
+hostname = dict.youdao.com
