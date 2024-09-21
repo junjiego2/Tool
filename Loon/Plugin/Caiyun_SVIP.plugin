@@ -7,7 +7,7 @@
 #!system_version = 16
 #!loon_version = 3.2.1(745)
 #!homepage = https://github.com/junjiego2/Tool
-#!icon = https://github.com/junjiego2/Tool/blob/main/res/caiyun.png?raw=true
+#!icon = https://gitlab.com/lodepuly/iconlibrary/-/raw/main/App_icon/120px/ColorfulClouds.png
 #!date = 2024-09-21 15:30:00
 
 [MITM]
