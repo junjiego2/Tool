@@ -7,7 +7,7 @@
 #!system_version = 16-18
 #!loon_version = 3.2.1(745)
 #!homepage = https://github.com/app2smile/rules/tree/master/plugin
-#!icon = https://gitlab.com/lodepuly/iconlibrary/-/raw/main/App_icon/120px/JD.png
+#!icon = https://gitlab.com/lodepuly/iconlibrary/-/raw/main/App_icon/120px/Spotify.png
 #!date = 2024.05.27 16:14:34
 
 [Rewrite]
