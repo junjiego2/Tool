@@ -15,7 +15,7 @@
 # 去广告
 #^https:\/\/api-va\.tiktokv\.com\/api\/ad\/ reject
 # 域名解析
-#^https:\/\/tnc\d+-platform-\w+\.tiktokv\.com\/get_domains\/ reject
+^https:\/\/tnc\d+-platform-\w+\.tiktokv\.com\/get_domains\/ reject
 
 [Script]
 http-request https?:\/\/.+.(tiktokv|tiktokcdn).com\/.+(region\d?=CN|&mcc_mnc=\d+) script-path = https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Resource/Script/TikTok/TikTok_redirect.js, tag = TikTok解锁
