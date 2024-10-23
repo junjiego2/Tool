@@ -1,0 +1,18 @@
+#!name = 克拉壁纸Svip
+#!desc = 克拉壁纸会员解锁
+#!openUrl = https://apps.apple.com/cn/app/%E5%85%8B%E6%8B%89%E5%A3%81%E7%BA%B8/id1233738041
+#!author = ddgksf2013
+#!tag = 功能增强
+#!system = iOS, iPadOS
+#!system_version = 16
+#!loon_version = 3.2.1(745)
+#!homepage = https://github.com/junjiego2/Tool
+#!icon=https://github.com/Toperlock/Quantumult/raw/main/icon/Doraemon/Doraemon-1035.png
+#!date = 2024-10-23 15:30:00
+
+[Script]
+# ～ 克拉壁纸 解锁会员权限（2022-12-10）@ddgksf2013
+http-response ^https:\/\/claritywallpaper\.com\/clarity\/api\/(userInfo|special\/queryByCatalogAll|picture\/search|catalog\/listAll|top\/list|picture\/date\?date) script-path=https://github.com/ddgksf2013/dev/raw/main/ClarityProCrack.js, requires-body=true, timeout=60, tag=ClarityProCrack
+
+[MITM]
+hostname = claritywallpaper.com
