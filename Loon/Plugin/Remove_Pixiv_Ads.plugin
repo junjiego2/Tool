@@ -1,6 +1,6 @@
 #!name=Pixiv去广告
 #!desc=去除 pixiv 底部横幅广告
-#!icon=https://raw.githubusercontent.com/junjiego2/Tool/refs/heads/main/res/pixiv.png
+#!icon= https://raw.githubusercontent.com/junjiego2/Tool/refs/heads/main/res/pixiv.png
 #!openUrl = https://apps.apple.com/app/pixiv/id337248563
 #!author = ddgksf2013[https://github.com/ddgksf2013]
 #!tag = 去广告
