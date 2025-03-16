@@ -3,7 +3,7 @@
 #!openUrl = 
 #!author = ddgksf2013
 #!homepage = https://github.com/junjiego2/Tool/tree/main/Loon/Plugin
-#!icon = 
+#!icon = https://github.com/junjiego2/Tool/blob/main/res/douban.png?raw=true
 
 [Rewrite]
 # > douban
