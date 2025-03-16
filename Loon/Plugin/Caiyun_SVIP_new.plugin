@@ -1,0 +1,27 @@
+#!name = 彩云天气Svip
+#!desc = 彩云天气会员解锁
+#!openUrl = https://apps.apple.com/cn/app/id847764912
+#!author = WeiRen0
+#!tag = 功能增强
+#!system = iOS, iPadOS
+#!system_version = 16
+#!loon_version = 3.2.1(745)
+#!homepage = https://github.com/junjiego2/Tool
+#!icon = https://raw.githubusercontent.com/junjiego2/Tool/refs/heads/main/res/caiyun.png
+#!date = 2025-03-16 15:30:00
+
+[Rewrite]
+# 普通版广告
+^https:\/\/ad\.cyapi\.cn\/v2\/req\?app_name=weather - reject-dict
+
+[Script]
+# 赏叶赏花
+http-response ^https:\/\/wrapper\.cyapi\.cn\/v1\/activity\?app_name=weather script-path=https://github.com/junjiego2/Tool/raw/refs/heads/main/Loon/Scripts/cytq.js, requires-body=true, timeout=60, 彩云天气
+
+# 解锁vip
+http-response ^https:\/\/biz\.cyapi\.cn\/v2\/user script-path=https://github.com/junjiego2/Tool/raw/refs/heads/main/Loon/Scripts/cytq.js, requires-body=true, timeout=60, tag=彩云天气
+# 卫星云图 48小时预报
+http-request ^https:\/\/wrapper\.cyapi\.cn\/v1\/(satellite|nafp\/origin_images) script-path=https://github.com/junjiego2/Tool/raw/refs/heads/main/Loon/Scripts/cytq.js, timeout=60, tag=彩云天气
+
+[MITM]
+hostname = *.cyapi.cn
