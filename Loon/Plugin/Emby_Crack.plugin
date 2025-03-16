@@ -1,0 +1,17 @@
+#!name= EmbyPremiere
+#!icon= https://raw.githubusercontent.com/junjiego2/Tool/refs/heads/main/res/emby.png
+#!desc = Emby会员解锁
+#!openUrl = https://apps.apple.com/us/app/emby/id992180193
+#!author = Tartarus2014[https://github.com/Tartarus2014]
+#!tag = 功能增强
+#!system = iOS, iPadOS
+#!system_version = 16
+#!loon_version = 3.2.1(745)
+#!homepage = https://github.com/junjiego2/Tool
+#!date = 2025-03-17 15:30:00
+
+[Script]
+http-response ^https?:\/\/mb3admin.com\/admin\/service\/registration\/validateDevice requires-body=1,max-size=0, script-path=https://github.com/junjiego2/Tool/raw/refs/heads/main/Loon/Scripts/Emby.js, tag=EMBY
+
+[MITM]
+hostname = mb3admin.com
