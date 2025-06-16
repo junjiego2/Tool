@@ -9,7 +9,7 @@
 DOMAIN-SUFFIX,j5.dfcfw.com,REJECT
 
 [Rewrite]
-# > 天天基金
+# > 天天基金开屏广告
 ^https:\/\/j5\.dfcfw\.com\/.*\/startpage\/.*\.(jpg|jpeg|webp) reject-img
 ^https:\/\/j5\.dfcfw\.com\/.*\/startpage\/.* reject-dict
 
