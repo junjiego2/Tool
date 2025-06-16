@@ -10,4 +10,4 @@
 ^https?:\/\/appactive\.1234567\.com\.cn\/AppoperationApi\/OperationService\/GetAppStartImg url reject-200
 
 [MITM]
-appactive.1234567.com.cn
+hostname =appactive.1234567.com.cn
