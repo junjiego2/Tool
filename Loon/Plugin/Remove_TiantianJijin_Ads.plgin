@@ -5,9 +5,13 @@
 #!homepage = https://github.com/junjiego2/Tool/tree/main/Loon/Plugin
 #!icon = https://github.com/junjiego2/Tool/blob/main/res/Tiantianjijin.png?raw=true
 
+[Rule]
+DOMAIN-SUFFIX,j5.dfcfw.com,REJECT
+
 [Rewrite]
 # > 天天基金
-^https?:\/\/appactive\.1234567\.com\.cn\/AppoperationApi\/OperationService\/GetAppStartImg url reject-200
+^https:\/\/j5\.dfcfw\.com\/.*\/startpage\/.*\.(jpg|png|jpeg|webp) reject-img
+^https:\/\/j5\.dfcfw\.com\/.*\/startpage\/.* reject-dict
 
 [MITM]
-hostname = appactive.1234567.com.cn
+hostname = j5.dfcfw.com
