@@ -1,0 +1,13 @@
+#!name = 天天基金广告
+#!desc = 过滤天天基金开屏广告
+#!openUrl = 
+#!author =  junjiego2
+#!homepage = https://github.com/junjiego2/Tool/tree/main/Loon/Plugin
+#!icon = https://github.com/junjiego2/Tool/blob/main/res/Tiantianjijin.png?raw=true
+
+[Rewrite]
+# > 天天基金
+^https:\/\/j5\.dfcfw\.com\/yuyan\/yyportal\/.*\.jpg reject-img
+
+[MITM]
+hostname = j5.dfcfw.com
