@@ -5,8 +5,8 @@
 #!homepage = https://github.com/junjiego2/Tool/tree/main/Loon/Plugin
 #!icon = https://github.com/junjiego2/Tool/blob/main/res/Tiantianjijin.png?raw=true
 
-#[Rule]
-#DOMAIN-SUFFIX,j5.dfcfw.com,REJECT
+[Rule]
+DOMAIN-SUFFIX,j5.dfcfw.com,REJECT
 
 [Rewrite]
 # > 天天基金
