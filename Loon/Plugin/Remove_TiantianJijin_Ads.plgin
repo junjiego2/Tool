@@ -7,7 +7,7 @@
 
 [Rewrite]
 # > 天天基金
-^https:\/\/j5\.dfcfw\.com\/yuyan\/yyportal\/.*\.jpg reject-img
+^https?:\/\/appactive\.1234567\.com\.cn\/AppoperationApi\/OperationService\/GetAppStartImg url reject-200
 
 [MITM]
-hostname = j5.dfcfw.com
+appactive.1234567.com.cn
