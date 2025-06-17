@@ -6,12 +6,14 @@
 #!icon = https://github.com/junjiego2/Tool/blob/main/res/Tiantianjijin.png?raw=true
 
 [Rule]
-DOMAIN-SUFFIX,j5.dfcfw.com,REJECT
+#DOMAIN-SUFFIX,j5.dfcfw.com,REJECT
 
 [Rewrite]
 # > 天天基金开屏广告
-^https:\/\/j5\.dfcfw\.com\/.*\/startpage\/.*\.(jpg|jpeg|webp) reject-img
-^https:\/\/j5\.dfcfw\.com\/.*\/startpage\/.* reject-dict
+^https?:\/\/j5\.dfcfw\.com\/WG\/conf\/202[0-9]{5}/.*.(jpg|png) reject-200
+^https?:\/\/j5\.dfcfw\.com\/WG\/appconf\/202[0-9]{5}/.*.(jpg|png) reject-200
+^https?:\/\/appactive\.1234567\.com\.cn\/AppoperationApi\/OperationService\/GetAppStartImg reject
+
 
 [MITM]
-hostname = j5.dfcfw.com
+hostname = j5.dfcfw.com, appactive.1234567.com.cn
